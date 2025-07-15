@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1;
+}
+
+.carousel-item img {
+    width: 512px;
+    height: 512px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
